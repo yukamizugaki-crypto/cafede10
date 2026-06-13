@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cafe de 10番 箕面市役所前 | 大阪府箕面市のカフェ</title>
+  <meta name="description" content="大阪府箕面市にある cafe de 10番。舞鶴創業50年の伝統を受け継ぐネルドリップコーヒーと自家製生パスタのお店。営業時間 月火木金土日 9:00〜20:00、水 9:00〜14:00。">
+  <meta property="og:title" content="cafe de 10番 箕面市役所前">
+  <meta property="og:description" content="舞鶴創業50年の伝統を受け継ぐネルドリップコーヒーと自家製生パスタのお店。">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Old+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== FIXED HEADER NAV ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#top" class="header-logo">
+        <img src="img/logo_transparent.png" alt="cafe de 10番 ロゴ" class="header-logo-img">
+      </a>
+      <nav class="header-nav" id="header-nav">
+        <a href="#concept" class="nav-link">コンセプト</a>
+        <a href="#menu" class="nav-link">メニュー</a>
+        <a href="#info" class="nav-link">店舗情報</a>
+        <a href="#access" class="nav-link">アクセス</a>
+        <a href="#contact" class="nav-link nav-link--cta">お問い合わせ</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== MOBILE NAV DRAWER ===== -->
+  <div class="nav-drawer" id="nav-drawer">
+    <div class="nav-drawer-inner">
+      <button class="nav-drawer-close" id="nav-drawer-close" aria-label="メニューを閉じる">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <a href="#top" class="drawer-logo-link" id="drawer-top">
+        <img src="img/logo_transparent.png" alt="cafe de 10番 ロゴ" class="drawer-logo-img">
+      </a>
+      <nav class="drawer-nav">
+        <a href="#concept" class="drawer-nav-link" data-drawer-link>コンセプト</a>
+        <a href="#menu" class="drawer-nav-link" data-drawer-link>メニュー</a>
+        <a href="#info" class="drawer-nav-link" data-drawer-link>店舗情報</a>
+        <a href="#access" class="drawer-nav-link" data-drawer-link>アクセス</a>
+      </nav>
+      <div class="drawer-sns">
+        <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener" class="drawer-sns-btn">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <div class="hero-slideshow">
+      <div class="hero-slide" style="background-image: url('img/HERO1.jpg');"></div>
+      <div class="hero-slide" style="background-image: url('img/HERO2.jpg');"></div>
+      <div class="hero-slide" style="background-image: url('img/HREO3.png');"></div>
+    </div>
+    <div class="hero-overlay">
+      <div class="hero-content" data-reveal>
+        <p class="hero-en">Since 1974 · Maizuru Origin</p>
+        <h1 class="hero-title">cafe de 10番</h1>
+        <p class="hero-sub">箕面市役所前</p>
+        <p class="hero-tagline">旨みと刻を追及した<br>一杯のコーヒーと<br>自家製生パスタ</p>
+        <div class="hero-cta-group">
+          <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener" class="btn btn--primary">
+            <i class="fa-brands fa-instagram"></i> Instagramを見る
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announce-bar" id="announce-bar">
+    <div class="announce-inner">
+      <i class="fa-solid fa-circle-info"></i>
+      <span>定休日は毎月10日です。詳しい営業日はInstagramをご確認ください。</span>
+      <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener">Instagramを見る <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== CONCEPT ===== -->
+    <section class="section concept-section" id="concept">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-label">Story</span>
+          <h2 class="section-title">50年の時を超えて</h2>
+        </div>
+        <div class="concept-layout">
+          <div class="concept-photo-col" data-reveal>
+            <div class="concept-photo-wrap">
+              <img src="img/STORY.jpg" alt="cafe de 10番 ストーリーイメージ" class="concept-img">
+              <div class="concept-photo-badge">
+                <span>Since</span>
+                <strong>1974</strong>
+              </div>
+            </div>
+          </div>
+          <div class="concept-text-col" data-reveal data-reveal-delay="150">
+            <div class="concept-quote">
+              <p class="concept-quote-text">
+                京都の舞鶴に<strong>コーヒー屋 10番館</strong>が創立したのが50年前。<br>
+                その思いと味を受け継ぎ、今日も箕面の地で営業しています。
+              </p>
+            </div>
+            <div class="concept-pillars">
+              <div class="concept-pillar">
+                <div class="pillar-icon"><i class="fa-solid fa-filter"></i></div>
+                <div class="pillar-text">
+                  <h3>ネルドリップコーヒー</h3>
+                  <p>布（ネル）でゆっくりと抽出する手間ひまかけた一杯。旨みと刻を追及した舞鶴創業者の魂が宿ります。</p>
+                </div>
+              </div>
+              <div class="concept-pillar">
+                <div class="pillar-icon"><i class="fa-solid fa-bowl-food"></i></div>
+                <div class="pillar-text">
+                  <h3>自家製生パスタ</h3>
+                  <p>試行錯誤を重ねて作り上げた自家製の生パスタ。素材の旨みを存分に引き出した一皿をご提供します。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PHOTO STRIP ===== -->
+    <div class="photo-strip">
+      <div class="photo-strip-track">
+        <!-- 1st set -->
+        <div class="photo-strip-item">
+          <img src="img/photo1.jpg" alt="cafe de 10番 イメージ1" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo2.jpg" alt="cafe de 10番 イメージ2" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/ptoto3.png" alt="cafe de 10番 イメージ3" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo4.jpg" alt="cafe de 10番 イメージ4" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo5.jpg" alt="cafe de 10番 イメージ5" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo6.jpg" alt="cafe de 10番 イメージ6" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo7.png" alt="cafe de 10番 イメージ7" class="strip-img">
+        </div>
+        <!-- 2nd set (duplicated for seamless loop) -->
+        <div class="photo-strip-item">
+          <img src="img/photo1.jpg" alt="cafe de 10番 イメージ1" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo2.jpg" alt="cafe de 10番 イメージ2" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/ptoto3.png" alt="cafe de 10番 イメージ3" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo4.jpg" alt="cafe de 10番 イメージ4" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo5.jpg" alt="cafe de 10番 イメージ5" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo6.jpg" alt="cafe de 10番 イメージ6" class="strip-img">
+        </div>
+        <div class="photo-strip-item">
+          <img src="img/photo7.png" alt="cafe de 10番 イメージ7" class="strip-img">
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== MENU ===== -->
+    <section class="section menu-section" id="menu">
+      <div class="menu-bg-overlay"></div>
+      <div class="container" style="position:relative;z-index:1;">
+        <div class="section-header section-header--light" data-reveal>
+          <span class="section-label">Menu</span>
+          <h2 class="section-title">メニュー</h2>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-card" data-reveal>
+            <div class="menu-card-photo">
+              <img src="img/ネルドリップコーヒー.jpg" alt="ネルドリップコーヒー" class="menu-img">
+              <div class="menu-card-badge">おすすめ</div>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">ネルドリップコーヒー</h3>
+              <p class="menu-card-desc">布フィルターで丁寧に抽出。まろやかでコクのある本格コーヒー。創業50年の伝統の味。</p>
+            </div>
+          </div>
+          <div class="menu-card" data-reveal data-reveal-delay="100">
+            <div class="menu-card-photo">
+              <div class="menu-slideshow">
+                <img src="img/生パスタ.jpg" alt="自家製生パスタ" class="menu-img menu-slide-item">
+                <img src="img/生パスタ2.jpg" alt="自家製生パスタ 2" class="menu-img menu-slide-item">
+              </div>
+              <div class="menu-card-badge">人気</div>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">自家製生パスタ</h3>
+              <p class="menu-card-desc">試行錯誤を重ねた自家製の生パスタ。もちもちとした食感と豊かな風味をお楽しみください。</p>
+            </div>
+          </div>
+          <div class="menu-card" data-reveal data-reveal-delay="200">
+            <div class="menu-card-photo">
+              <img src="img/フード・スイーツ1.jpg" alt="フード・スイーツ" class="menu-img">
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">フード・スイーツ</h3>
+              <p class="menu-card-desc">コーヒーに合う手作りのスイーツやフードメニューをご用意しています。</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu-note" data-reveal>
+          <p><i class="fa-solid fa-circle-info"></i> 詳しいメニューはInstagramまたは店頭にてご確認ください。</p>
+          <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener" class="btn btn--outline-light">
+            <i class="fa-brands fa-instagram"></i> Instagramでメニューを見る
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HIGHLIGHT BANNER ===== -->
+    <div class="highlight-banner" data-reveal>
+      <div class="highlight-banner-inner">
+        <div class="highlight-banner-text">
+          <span class="highlight-label">ご予約・お問い合わせ</span>
+          <p>ご予約・お問い合わせはお電話にてお願いいたします</p>
+        </div>
+        <a href="tel:0727220510" class="highlight-tel">
+          <i class="fa-solid fa-phone"></i>
+          <span>072-722-0510</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===== INFO ===== -->
+    <section class="section info-section" id="info">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-label">Information</span>
+          <h2 class="section-title">店舗情報</h2>
+        </div>
+        <div class="info-card" data-reveal>
+          <div class="info-table">
+            <div class="info-row">
+              <div class="info-th"><i class="fa-solid fa-store"></i> 店名</div>
+              <div class="info-td">cafe de 10番 箕面市役所前</div>
+            </div>
+            <div class="info-row">
+              <div class="info-th"><i class="fa-solid fa-location-dot"></i> 住所</div>
+              <div class="info-td">
+                〒562-0003<br>大阪府箕面市西小路５丁目４−１５
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-th"><i class="fa-solid fa-phone"></i> 電話</div>
+              <div class="info-td">
+                <a href="tel:0727220510" class="info-tel-link">072-722-0510</a>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-th"><i class="fa-regular fa-clock"></i> 営業時間</div>
+              <div class="info-td">
+                <div class="hours-grid">
+                  <div class="hours-row">
+                    <div class="hours-days">
+                      <span class="day-tag day--mon">月</span>
+                      <span class="day-tag day--tue">火</span>
+                      <span class="day-tag day--thu">木</span>
+                      <span class="day-tag day--fri">金</span>
+                      <span class="day-tag day--sat">土</span>
+                      <span class="day-tag day--sun">日</span>
+                    </div>
+                    <div class="hours-time">9:00 〜 20:00</div>
+                  </div>
+                  <div class="hours-row">
+                    <div class="hours-days">
+                      <span class="day-tag day--wed">水</span>
+                    </div>
+                    <div class="hours-time">9:00 〜 14:00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-th"><i class="fa-solid fa-calendar-xmark"></i> 定休日</div>
+              <div class="info-td">
+                毎月10日<br>
+                <span class="info-note"><i class="fa-brands fa-instagram"></i> 詳しい営業日は<a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener">Instagram</a>をご確認ください</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <div class="info-th"><i class="fa-brands fa-instagram"></i> SNS</div>
+              <div class="info-td">
+                <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener" class="info-sns-link info-sns-link--ig">
+                  <i class="fa-brands fa-instagram"></i> @minoh10ban
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACCESS / MAP ===== -->
+    <section class="section access-section" id="access">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-label">Access</span>
+          <h2 class="section-title">アクセス</h2>
+        </div>
+        <div class="access-layout" data-reveal>
+          <div class="access-address-col">
+            <div class="access-address-card">
+              <h3 class="access-address-title"><i class="fa-solid fa-location-dot"></i> 所在地</h3>
+              <p class="access-address-text">
+                〒562-0003<br>
+                大阪府箕面市<br>西小路５丁目４−１５
+              </p>
+              <a href="https://www.google.com/maps/place/cafe+de+10%E7%95%AA+%E7%AE%95%E9%9D%A2%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D/data=!4m2!3m1!1s0x6000fa41e8569e93:0x324df2d8b0485471?sa=X&ved=1t:242&ictx=111"
+                target="_blank" rel="noopener" class="access-maps-btn">
+                <i class="fa-solid fa-map-location-dot"></i> Google マップで開く
+              </a>
+            </div>
+          </div>
+          <div class="access-map-col">
+            <div class="map-frame">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.29!2d135.4614!3d34.8310!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000fa41e8569e93%3A0x324df2d8b0485471!2scafe%20de%2010%E7%95%AA%20%E7%AE%95%E9%9D%A2%E5%B8%82%E5%BD%B9%E6%89%80%E5%89%8D!5e0!3m2!1sja!2sjp!4v1718249600000!5m2!1sja!2sjp"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="cafe de 10番 箕面市役所前 地図">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-bg-overlay"></div>
+      <div class="container" style="position:relative;z-index:1;">
+        <div class="section-header section-header--light" data-reveal>
+          <span class="section-label">Contact</span>
+          <h2 class="section-title">お問い合わせ・ご予約</h2>
+        </div>
+        <div class="contact-card" data-reveal>
+          <div class="contact-card-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <h3 class="contact-card-title">お電話でのご予約・お問い合わせ</h3>
+          <p class="contact-card-desc">ご予約・お問い合わせはお電話にてお受けしております。<br>お気軽にお電話ください。</p>
+          <a href="tel:0727220510" class="contact-tel-btn">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>072-722-0510</span>
+          </a>
+          <div class="contact-hours">
+            <p>受付時間：営業時間内</p>
+          </div>
+        </div>
+        <div class="contact-instagram" data-reveal>
+          <p>最新情報・メニューはInstagramにてご確認いただけます</p>
+          <a href="https://www.instagram.com/minoh10ban/" target="_blank" rel="noopener" class="contact-ig-btn">
+            <i class="fa-brands fa-instagram"></i> @minoh10ban をフォロー
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+
+    <div class="footer-line-bar">
+      <div class="footer-line-inner">
+        <p>公式LINEではお得な情報をお届けしています</p>
+        <a href="https://line.me/R/ti/p/@msv5262d" target="_blank" rel="noopener" class="footer-line-btn">
+          <i class="fa-brands fa-line"></i> 公式LINEを友だち追加
+        </a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2026 cafe de 10番 箕面市役所前. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
